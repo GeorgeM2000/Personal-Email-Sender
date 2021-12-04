@@ -30,7 +30,7 @@ let transporter = nodemailer.createTransport({
 
 
 app.get("/login", (req, res) => {
-    res.sendFile("C:/Users/giorg/Email_Sender/public/user_login.html");
+    res.sendFile("/public/user_login.html");
 });
 
 app.get("/email_form", (req, res) => {
@@ -38,7 +38,7 @@ app.get("/email_form", (req, res) => {
         authorized = false;
         user_email = null;
         
-        res.sendFile("C:/Users/giorg/Email_Sender/public/email_form.html");
+        res.sendFile("/public/email_form.html");
     } 
 });
 
