@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #cdcdcd;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.user_login_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height:360px;
+    background: white;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+
+.user_login_container h1 {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.user_login {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.text_field {
+    position: relative;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+}
+
+#email_text_field {
+    margin: 30px 0;
+}
+
+.text_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.error_field {
+    margin: 15px 0 20px 0;
+    text-align: center;
+    visibility: hidden;
+}
+
+.error_field p {
+    color: #D6001C;
+}
+
+.button_field {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+button{
+    width: 30%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: #5fb2ce;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    border-color: #5fb2ce;
+    transition: .5s;
+}
